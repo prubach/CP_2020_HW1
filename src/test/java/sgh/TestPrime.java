@@ -22,6 +22,9 @@ public class TestPrime {
         PrimeNumbers.primes(4);
         assertEquals("2, 3, 5, 7\n", bos.toString());
 
+        bos = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(bos));
+
         PrimeNumbers.primes(8);
         assertEquals("2, 3, 5, 7, 11, 13, 17, 19\n", bos.toString());
 
