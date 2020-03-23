@@ -1,3 +1,5 @@
+package sgh;
+
 public class PrimeNumbers {
 
     public static void primes(int n) {
